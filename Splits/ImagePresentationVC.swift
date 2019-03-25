@@ -1,9 +1,9 @@
 //
-//  DetailViewController.swift
+//  ImagePresentationVC.swift
 //  Splits
 //
-//  Created by Peerapol on 25/3/2562 BE.
-//  Copyright © 2562 iPpanther. All rights reserved.
+//  Created by Caleb Stultz on 10/25/17.
+//  Copyright © 2017 Caleb Stultz. All rights reserved.
 //
 
 import UIKit
@@ -16,7 +16,6 @@ class ImagePresentationVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         itemImageView.image = image
     }
 
